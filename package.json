@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build": "mkdir -p dist && cp index.html dist/index.html && cp -r public dist/public",
+    "start": "serve dist"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
